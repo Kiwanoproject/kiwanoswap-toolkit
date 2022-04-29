@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kiwanoproject/kiwanoswap-toolkit.git#master"
+    "url": "https://github.com/Kiwanoproject/kiwanoswap-toolkit/tree/master/packages/kiwanoswap-uikit"
   },
   "license": "MIT",
   "scripts": {
