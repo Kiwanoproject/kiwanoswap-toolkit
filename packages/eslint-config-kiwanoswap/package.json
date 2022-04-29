@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "pancakeswap/eslint-config-pancake/tree/master/packages/eslint-config-kiwanoswap"
+    "url": "https://github.com/Kiwanoproject/kiwanoswap-toolkit/tree/master/packages/eslint-config-kiwanoswap"
   },
   "license": "MIT",
   "author": "RabbitDoge",
