@@ -1,20 +1,20 @@
 {
   "name": "kiwanoswap-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Pancake frontend packages",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pancakeswap/pancake-toolkit.git"
+    "url": "git+https://github.com/Kiwanoproject/kiwanoswap-toolkit.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pancakeswap/pancake-toolkit/issues"
+    "url": "https://github.com/Kiwanoproject/kiwanoswap-toolkit/issues"
   },
-  "homepage": "https://github.com/pancakeswap/pancake-toolkit#readme",
+  "homepage": "https://github.com/Kiwanoproject/kiwanoswap-toolkit#readme",
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
@@ -60,5 +60,8 @@
     "typescript": "^4.2.4"
   },
   "main": "index.js",
-  "author": ""
+  "author": "",
+  "dependencies": {
+    "yarn": "^1.22.18"
+  }
 }

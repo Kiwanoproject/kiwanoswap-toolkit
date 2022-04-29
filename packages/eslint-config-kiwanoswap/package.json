@@ -1,12 +1,15 @@
 {
-  "name": "@pancakeswap/eslint-config-pancake",
+  "name": "@kiwanoswap/eslint-config-kiwanoswap",
   "version": "1.2.0",
-  "description": "Eslint config for PancakeSwap",
+  "description": "Eslint config for KiwanoSwap",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake",
+  "repository": {
+    "type": "git",
+    "url": "pancakeswap/eslint-config-pancake/tree/master/packages/eslint-config-kiwanoswap"
+  },
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,
@@ -26,5 +29,12 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

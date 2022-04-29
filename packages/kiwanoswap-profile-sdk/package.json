@@ -1,11 +1,14 @@
 {
-  "name": "@pancakeswap/profile-sdk",
+  "name": "@kiwanoswap/profile-sdk",
   "version": "0.3.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk",
+  "repository": {
+    "type": "git",
+    "url": "kiwanoswap/eslint-config-pancake/tree/master/packages/kiwanoswap-profile-sdk"
+  },
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "start": "yarn build && node ./dist",
@@ -40,5 +43,7 @@
   "dependencies": {
     "@types/js-cookie": "^2.2.6",
     "js-cookie": "^2.2.1"
-  }
+  },
+  "description": "This package provides some handy functions to retrieve data for Pancakeswap Profile system.",
+  "author": ""
 }
