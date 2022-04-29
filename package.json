@@ -1,7 +1,7 @@
 {
   "name": "kiwanoswap-toolkit",
-  "version": "1.0.2",
-  "description": "Pancake frontend packages",
+  "version": "1.0.3",
+  "description": "KiwanoSwap frontend packages",
   "private": false,
   "workspaces": [
     "packages/*"
